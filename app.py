@@ -36,7 +36,7 @@ except Exception as e:
 
 st.subheader("3. 데이터 입력")
 
-name = st.text_input("이름 입력", placeholder="예: DoYoung")
+name = st.text_input("이름 입력", placeholder="예: Gil-Dong")
 
 if st.button("저장"):
     if not name.strip():
